@@ -1,0 +1,19 @@
+{
+  "name": "lab7",
+  "version": "1.0.0",
+  "description": "this is the package.json for lab 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinaltaper/07-node-npm-express.git"
+  },
+  "author": "panos kumasaka and lacy hogan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spinaltaper/07-node-npm-express/issues"
+  },
+  "homepage": "https://github.com/spinaltaper/07-node-npm-express#readme"
+}
