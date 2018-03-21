@@ -19,13 +19,7 @@ app.post('/articles', bodyParser, function(request, response) {
   response.send('Record posted to server!!');
 });
 
-// app.use(request, response, next) => {
-//   console.log('Oops');
-//   response.status(404);
-// };
-
 app.use((request, response, next) => {
-  console.log();
   response.status(404).sendFile('404.html', { root: './public' });
 });
 
