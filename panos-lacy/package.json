@@ -1,0 +1,27 @@
+{
+  "name": "panos-lacy",
+  "version": "1.0.0",
+  "description": "lab7",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinaltaper/07-node-npm-express.git"
+  },
+  "keywords": [
+    "express",
+    "codefellows"
+  ],
+  "author": "Panos and Lacy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spinaltaper/07-node-npm-express/issues"
+  },
+  "homepage": "https://github.com/spinaltaper/07-node-npm-express#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
